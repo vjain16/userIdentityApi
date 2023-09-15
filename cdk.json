@@ -1,0 +1,10 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/userIdentity.ts",
+  "requireApproval": "never",
+  "context": {
+    "envName": "skinny",
+    "minutesToDeleteRequest": "30",
+    "minutesToWaitForAutoSignOut": "15",
+    "minutesBeforeReminderToBeSent" : "30"
+  }
+}
